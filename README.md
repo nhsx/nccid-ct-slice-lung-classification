@@ -8,6 +8,10 @@ I built a 2D deep learning model and applied transfer learning for this classifi
 
 I applied transfer learning and used the pre-trained ImageNet (Russakovsky et al., 2015) weight of EfficientNetB1 to train the classification model on our training set. The training set images are processed by a sequential layer for the image augmentation before feeding into the EfficientNetB1 component. The features extracted by EfficientNetB1 are then averaged out by a 2D global-average-pooling operation, before feeding into a fully-connected layer (with random dropout rate of 0.3). The output layer of the model uses a softmax activation function to give the probabilities of the two classes ('whole lung' and 'others').
 
+## The code
+
+The main script of the demo is `whole_lung_classifier_demo.ipynb`. The customised utility functions are in the `src` folder. 
+
 ## Model performance on the test set
 This trained classification model perform well on the hold-out test set, providing a weighted accuracy of 98% and an AUC-ROC > 0.99.
 

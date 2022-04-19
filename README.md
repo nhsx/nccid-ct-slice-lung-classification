@@ -18,11 +18,11 @@ This trained classification model perform well on the hold-out test set, providi
 ## Notes for the model
 In the script, `data_folder_path` is the path to the data folder that contains all the JPG images that we used in this demo. This data path also contained a labels file, `whole_lung_label.csv`.
 
-Please refer to our related paper: Poon and Lemarchand (in prep.) for further information. If you found this script useful, please cite:
+Please refer to our related paper: Lemarchand, Poon & Cushnan (in prep.) for further information. If you found this script useful, please cite:
 
 ```
 @misc{Poon_Lemarchand_II,
-       author = {{Poon}, Sanson T.S. and {Lemarchand}, Fran\c{c}ois},
+       author = {{Lemarchand}, Fran\c{c}ois} and {Poon}, Sanson T.~S. and {Cushnan}, Dominic},
         title = "{Baseline deep learning model trained on the UK National COVID-19 Chest Imaging Database - II: chest CT images}",
          year = in prep.
 }
@@ -30,6 +30,6 @@ Please refer to our related paper: Poon and Lemarchand (in prep.) for further in
 
 ### References:
 
-- S.T.S. Poon and F. Lemarchand. Baseline deep learning model trained on the UK National COVID-19 Chest Imaging Database - II: chest CT images, in prep
+- F. Lemarchand, S.T.S. Poon, and D. Cushnan. Baseline deep learning model trained on the UK National COVID-19 Chest Imaging Database - II: chest CT images, in prep
 - O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein, A. C. Berg, and L. Fei-Fei. Imagenet large scale visual recognition challenge, 2015
 - M. Tan and Q. Le. Efficientnet: Rethinking model scaling for convolutional neural networks. In International conference on machine learning, pages 6105–6114. PMLR, 2019. 9
